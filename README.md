@@ -4,8 +4,21 @@ Over the last six months, I have been archiving orderbooks on Polymarket for all
 
 In addition, I’ve built a comprehensive dataset designed for machine learning research and AI trading bot development on Polymarket. This dataset will also be released.
 
+I am currently training machine learning models on this dataset when I have some spare time. I plan to share my insights and results as well on this page. Also, I want to share the code when a meaningful result is achieved.
+
 For now, only the insights and statistical analyses are publicly available here. Enjoy exploring the data! If you have any questions, feel free to open an Issue 😊.
 
+- [Polymarket Bet Orderbook Dataset Documentation](#polymarket-bet-orderbook-dataset-documentation)
+  - [Overview](#overview)
+  - [Use Case](#use-case)
+  - [Columns](#columns)
+  - [Dataset Size](#dataset-size)
+  - [Notes](#notes)
+- [Data Insights](#data-insights)
+  - [Profit Opportunity Analysis](#profit-opportunity-analysis)
+    - [Profit from Buying "NO" (profit\_buying\_no)](#profit-from-buying-no-profit_buying_no)
+    - [Profit from Buying "YES" (profit\_buying\_yes)](#profit-from-buying-yes-profit_buying_yes)
+    - [Commentary](#commentary)
 
 
 ## Overview
