@@ -131,5 +131,4 @@ max      0.83
 * Profitable trades (>0.01 or 1%) are extremely rare (<0.2% of all cases).
 * Large outlier profits are rare and likely correspond to special cases (market closure, sudden price moves, data edge cases).
 
-!\[Add additional plots or insights as needed]
 
