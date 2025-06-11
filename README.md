@@ -8,6 +8,12 @@ I am currently training machine learning models on this dataset when I have some
 
 For now, only the insights and statistical analyses are publicly available here. Enjoy exploring the data! If you have any questions, feel free to open an Issue 😊.
 
+---
+
+## Overview
+
+This dataset contains time series data from the Polymarket prediction market, specifically focused on binary Bitcoin markets. The data includes orderbook-derived prices and features, target prices for each market, and reference Bitcoin price data. The purpose of the dataset is to train machine learning models to predict short-term, persistent movements in the market price for buying and selling contracts, while minimizing the impact of transient noise (such as large one-off trades).
+
 - [Polymarket Bet Orderbook Dataset Documentation](#polymarket-bet-orderbook-dataset-documentation)
   - [Overview](#overview)
   - [Use Case](#use-case)
@@ -20,10 +26,6 @@ For now, only the insights and statistical analyses are publicly available here.
     - [Profit from Buying "YES" (profit\_buying\_yes)](#profit-from-buying-yes-profit_buying_yes)
     - [Commentary](#commentary)
 
-
-## Overview
-
-This dataset contains time series data from the Polymarket prediction market, specifically focused on binary Bitcoin markets. The data includes orderbook-derived prices and features, target prices for each market, and reference Bitcoin price data. The purpose of the dataset is to train machine learning models to predict short-term, persistent movements in the market price for buying and selling contracts, while minimizing the impact of transient noise (such as large one-off trades).
 
 ## Use Case
 
