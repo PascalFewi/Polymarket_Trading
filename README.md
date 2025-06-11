@@ -24,7 +24,6 @@ This dataset contains time series data from the Polymarket prediction market, sp
   - [Profit Opportunity Analysis](#profit-opportunity-analysis)
     - [Profit from Buying "NO" (profit\_buying\_no)](#profit-from-buying-no-profit_buying_no)
     - [Profit from Buying "YES" (profit\_buying\_yes)](#profit-from-buying-yes-profit_buying_yes)
-    - [Commentary](#commentary)
 
 
 ## Use Case
@@ -122,13 +121,4 @@ min     -0.849
 75%     -0.01
 max      0.83
 ```
-
-
-### Commentary
-
-* The vast majority of round-trip trades (buying either YES or NO) are not profitable under current market conditions.
-* Median and mean profits are both negative, consistent with expected orderbook spread and slippage costs.
-* Profitable trades (>0.01 or 1%) are extremely rare (<0.2% of all cases).
-* Large outlier profits are rare and likely correspond to special cases (market closure, sudden price moves, data edge cases).
-
 
