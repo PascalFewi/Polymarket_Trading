@@ -30,8 +30,8 @@ This dataset contains time series data from the Polymarket prediction market, sp
 
 The main prediction targets are:
 
-* `avg_buy_price_median_next5m`: The median market price to buy 100 shares (including slippage) in the next 5 minutes.
-* `avg_sell_price_median_next5m`: The median market price to sell 100 shares (including slippage) in the next 5 minutes.
+* `avg_buy_price_median_next5m`: The median (at least one, up to 20 datapoints) market price to buy 100 shares (including slippage) in the next 5 minutes.
+* `avg_sell_price_median_next5m`: The median (at least one, up to 20 datapoints) market price to sell 100 shares (including slippage) in the next 5 minutes.
 
 The focus is on learning to predict bet price changes that reflect genuine market movement, rather than random spikes caused by temporary orderbook depletion.
 
@@ -55,7 +55,7 @@ The focus is on learning to predict bet price changes that reflect genuine marke
 
 ## Dataset Size
 
-* **Rows**: 3,827,161
+* **Rows**: 4,557,599
 * **Markets**: All Polymarket "will BTC reach/above" binary options with a known price target
 * **Granularity**: Minute-level and tick-level for some features
 
